@@ -14,8 +14,7 @@ Make sure you have spotify developer account with a Client ID and Client Secret
 1. Open a terminal in the project's root directory 
 2. Run `npm i` to install the packages used in this project
 3. Run `npm run start` to run the server
-4. Open a browser and visit http://localhost:3000
-
+4. Open a browser and visit http://localhost:3000 or the demo page at http://localhost:3000/demo
 # Contributors:
 * [JuliaYu2002](https://github.com/JuliaYu2002)
 * [RafaelPiloto10](https://github.com/RafaelPiloto10)
