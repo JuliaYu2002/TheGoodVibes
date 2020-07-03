@@ -5,6 +5,8 @@ A website that uses a Spotify API to give you relaxing music to vibe to.
 To run this website locally make sure you have the following installed:
 - [NodeJS](https://nodejs.org/en/)
 
+<b>Make sure that you have the most recent version of this project!</b>
+
 Make sure you have spotify developer account with a Client ID and Client Secret
 - rename `sample.env` to `.env` and input your tokens 
 
