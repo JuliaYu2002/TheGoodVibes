@@ -17,15 +17,14 @@ app.use(express.static("public/"));
 
 app.listen(port, async () => {
     console.log("Server is up and running");
-
-    // Simple demo that gets the 'mood booster' playlist from spotify
-
-    let playlist = await getPlaylist(playlists['moodbooster']);
-    for (let song of playlist) {
-        console.log(song);
-    }
 });
 
+
+app.get("/demo", async (req, res) => {
+    // Simple demo that gets the 'mood booster' playlist from spotify
+    let playlist = await getPlaylist(playlists['moodbooster']);
+    res.status(200).json(playlist);
+})
 
 const getPlaylist = async (id) => {
     return new Promise((resolve, reject) => {
@@ -39,5 +38,4 @@ const getPlaylist = async (id) => {
                 reject(err);
             });
     });
-
 }
