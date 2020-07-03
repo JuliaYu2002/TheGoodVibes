@@ -1,0 +1,27 @@
+{
+  "name": "thegoodvibes",
+  "version": "1.0.0",
+  "description": "Good Vibes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaYu2002/TheGoodVibes.git"
+  },
+  "keywords": [
+    "Get",
+    "good",
+    "vibes"
+  ],
+  "author": "JuliaYu2002, RafaelPiloto10, carolynqu, vyshnavirajeevan, elisaj1317, AngelynDisguise",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuliaYu2002/TheGoodVibes/issues"
+  },
+  "homepage": "https://github.com/JuliaYu2002/TheGoodVibes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
