@@ -30,3 +30,7 @@
   * Resource page
   * About page
   * Meditation page?
+
+## Assets:
+- [X] Logo
+- [ ] Stock images
