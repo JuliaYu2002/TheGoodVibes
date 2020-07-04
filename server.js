@@ -24,7 +24,18 @@ app.get("/demo", async (req, res) => {
     // Simple demo that gets the 'mood booster' playlist from spotify
     let playlist = await getPlaylist(playlists['moodbooster']);
     res.status(200).json(playlist);
-})
+});
+
+app.get("/playlist/:id", async (req, res) => {
+    let playlist = await getPlaylist(req.params.id);
+    res.status(200).json(playlist);
+});
+
+app.get("*", (req, res) => {
+    res.status(404).json({
+        message: "This is not the page you were looking for"
+    });
+});
 
 const getPlaylist = async (id) => {
     return new Promise((resolve, reject) => {
