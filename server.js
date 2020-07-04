@@ -15,7 +15,7 @@ app.listen(port, async () => {
     console.log("Server is up and running");
 });
 
-app.get("/playlist/:id", async (req, res) => {
+app.get("/get-playlist/:id", async (req, res) => {
     let playlist = await getPlaylist(req.params.id);
     res.status(200).json(playlist);
 });
@@ -38,9 +38,9 @@ app.get("*", (req, res) => {
 const getPlaylist = async (id) => {
     return new Promise((resolve, reject) => {
         spotify
-            .request(`https://api.spotify.com/v1/playlists/${id}/tracks`)
+            .request(`https://api.spotify.com/v1/playlists/${id}`)
             .then(function (playlist) {
-                resolve(playlist.items);
+                resolve(playlist);
             })
             .catch(function (err) {
                 console.error('Error occurred: ' + err);
