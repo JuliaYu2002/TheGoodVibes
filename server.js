@@ -26,7 +26,7 @@ app.get("/demo", async (req, res) => {
     res.status(200).json(playlist);
 });
 
-app.get("/playlist/:id", (req, res) => {
+app.get("/playlist/:id", async (req, res) => {
     let playlist = await getPlaylist(req.params.id);
     res.status(200).json(playlist);
 });
