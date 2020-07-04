@@ -2,7 +2,7 @@
 
 ## Main Page - `/`:
 
-- [ ] NavBar - displayed everwhere else
+- [ ] NavBar - aligning but otherwise done
 - [ ] Emotions list
 - [ ] Questions
 - [ ] REDIRECT to `/playlist` page with ID as URL parameter
