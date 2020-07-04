@@ -2,7 +2,7 @@
 
 ## Main Page - `/`:
 
-- [ ] NavBar - displayed everwhere else
+- [X] NavBar - displayed everwhere else
 - [ ] Emotions list
 - [ ] Questions
 - [ ] REDIRECT to `/playlist` page with ID as URL parameter
@@ -26,10 +26,9 @@
 
 ## Backend:
 
-- [ ] Create routes for:
+- [X] Create routes for:
   * Resource page
   * About page
-  * Meditation page?
 
 ## Assets:
 - [X] Logo

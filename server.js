@@ -9,26 +9,24 @@ const spotify = new Spotify({
     secret: process.env.CLIENT_SECRET
 });
 
-const playlists = {
-    moodbooster: "37i9dQZF1DX3rxVfibe1L0"
-}
-
 app.use(express.static("public/"));
 
 app.listen(port, async () => {
     console.log("Server is up and running");
 });
 
-
-app.get("/demo", async (req, res) => {
-    // Simple demo that gets the 'mood booster' playlist from spotify
-    let playlist = await getPlaylist(playlists['moodbooster']);
-    res.status(200).json(playlist);
-});
-
 app.get("/playlist/:id", async (req, res) => {
     let playlist = await getPlaylist(req.params.id);
     res.status(200).json(playlist);
+});
+
+
+app.get("/about", (req, res) => {
+    res.status(200).send("/about")
+});
+
+app.get("/resources", (req, res) => {
+    res.status(200).send("/resources");
 });
 
 app.get("*", (req, res) => {
