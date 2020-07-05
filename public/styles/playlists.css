@@ -49,3 +49,7 @@ a {
   text-align: center;
   text-decoration: none;
 }
+
+.playlistImage {
+  height: 60px width: auto;
+}
