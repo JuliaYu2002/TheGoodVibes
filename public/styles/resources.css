@@ -1,0 +1,20 @@
+a {
+    font-size: 20px;
+    color: #378081;
+    text-decoration: none;
+    cursor: pointer
+}
+
+a:hover {
+    color: #214a4b;
+}
+
+.container {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 18rem;
+}
