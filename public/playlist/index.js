@@ -23,7 +23,7 @@ window.onload = async () => {
 
                 let img = document.createElement("IMG");
                 img.classList.add("card-img-top", "playlistImage");
-                img.src = "https://i.scdn.co/image/ab67706c0000da8440e621faa6b065e92f3b430e"; // CHANGE THIS TO PLAYLIST IMG
+                img.src = playlist_data.images[0].url; // CHANGE THIS TO PLAYLIST IMG
                 img.alt = "card image cap";
 
                 let p = document.createElement("P");
