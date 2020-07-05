@@ -35,6 +35,15 @@ a{
   text-align: center;
 }
 
+.listFormat {
+  text-align: left;
+  font-size: 90%;
+}
+
+.listTitle {
+  padding-inline-start: 25px;
+}
+
 .spotifyLinks {
   font-size: .95rem;
   text-align: center;
