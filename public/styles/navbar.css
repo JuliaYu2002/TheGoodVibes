@@ -7,8 +7,12 @@
     padding-top: 100px !important;
 }
 
-.fa {
+.card-body a {
     font-family: 'Raleway', sans-serif;
+
+}
+
+.fa {
     font-size: 30px;
     color: #378081;
     text-decoration: none;
