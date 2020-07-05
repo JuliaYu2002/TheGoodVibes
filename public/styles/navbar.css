@@ -1,0 +1,18 @@
+.nav-link {
+    font-size: 25px;
+}
+
+.nav {
+    width: 100%;
+}
+
+.fa {
+    font-size: 30px;
+    color: #378081;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: #214a4b;
+}
