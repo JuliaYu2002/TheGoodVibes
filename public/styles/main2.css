@@ -1,7 +1,4 @@
-html {
-  background: url(https://user-images.githubusercontent.com/66151655/86526463-6479d580-be62-11ea-9234-21172cb2ff0e.jpg) no-repeat center fixed;
-  background-size: cover;
-}
+
 
 * {
   box-sizing: border-box;
@@ -22,7 +19,6 @@ html {
 
   position: relative;
 }
-
 
 
 
