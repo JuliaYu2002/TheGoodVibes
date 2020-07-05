@@ -9,7 +9,7 @@
 
 ## Playlist Page - `/playlist`:
 
-- [ ] Extract playlist ID from url
+- [X] Extract playlist ID from url
 - [ ] Make GET request to server @ `/playlist/:id`
 - [ ] Display song details or link playlist
 - [ ] Maybe embed song preview?
@@ -20,8 +20,8 @@
 
 ## About page - `/about`:
 
-- [ ] Display website information
-- [ ] About the creators? Meet the creators?
+- [X] Display website information
+- [X] About the creators? Meet the creators?
   * Display contributor socials? LinkedIn? GitHub?
 
 ## Backend:
@@ -32,4 +32,4 @@
 
 ## Assets:
 - [X] Logo
-- [ ] Stock images
+- [X] Stock images
