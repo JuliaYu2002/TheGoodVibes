@@ -6,6 +6,7 @@
 .playlistName {
   margin-top: 15px !important;
   margin-left: auto !important;
+  text-align: center;
 }
 
 h2 {
@@ -27,4 +28,14 @@ a{
 
 .card {
     width: 18rem;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.spotifyLinks {
+  font-size: 0.85rem;
+  text-align: center;
+  text-decoration: none;
 }

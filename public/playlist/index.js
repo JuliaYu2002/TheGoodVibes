@@ -31,6 +31,7 @@ window.onload = async () => {
                 p.innerText = playlist_data.name
 
                 let a = document.createElement("A");
+                a.classList.add("spotifyLinks", "text-center")
                 a.href = playlist_data.external_urls['spotify'];
                 a.innerText = "Click here to listen to the playlist!";
 
