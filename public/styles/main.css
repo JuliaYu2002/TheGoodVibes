@@ -1,44 +1,29 @@
 h1 {
     text-align: center;
-
     font-family: 'Oleo Script', cursive;
-
-
-
 }
 
 .animate__animated.animate__fadeInUp {
     --animate-duration: 2s;
-
-
 }
 
 .animate__animated.animate__fadeOut.animate__delay-3s {
-
     --animate-duration: 1.5s;
-
-
-
 }
-
 
 .animate__animated.animate__fadeInRight {
     --animate-duration: 2s;
-
 }
 
 #catch {
-
     --animate-duration: 1.5s;
-
 }
 
 .display-4 {
-    font-size: 12vw;
+    font-size: 8vw;
     margin-top: 15vh;
     color: #DD9028;
     position: relative;
-
 }
 
 .displaybg {
@@ -51,19 +36,14 @@ h1 {
 
 p {
     /*text-align: center;*/
-
     font-family: 'Raleway', sans-serif;
-
-
 }
 
 .lead {
     font-size: 2.3vw;
-    margin-left: 30vw;
-
-    margin-top: -7vh;
-
-
+    margin-right: 15vw;
+    text-align: right;
+    margin-top: -2vh;
 }
 
 * {
