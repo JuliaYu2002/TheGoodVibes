@@ -12,3 +12,7 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.fa:hover {
+    color: #214a4b;
+}
