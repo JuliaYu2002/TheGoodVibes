@@ -7,7 +7,8 @@
     <title>The Good Vibes - About Us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href='../styles/main.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='../styles/navbar.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -22,34 +23,114 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/" style="font-size: 25px">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/about" style="font-size: 25px">About Us</a>
+                    <a class="nav-link" href="/about">About Us<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/resources" style="font-size: 25px">Resources</a>
+                    <a class="nav-link" href="/resources">Resources</a>
                 </li>
             </ul>
 
         </div>
     </nav>
 
-    <h1>About Us</h1>
-    <break>
+    <div class="container">
+        <h1 class="text-center">About Us</h1>
+        <hr>
         <h3> Our Goal </h3>
         <p>
             Our goal for this project is to determine the user's current emotion and give
             music recommendations from Spotify according to the user's answer.
         </p>
-    <break>
-    <h3> Meet the Creators </h3>
-        <h5> Carolyn Qu </h5>
-        <h5> Julia Yu </h5>
-        <h5> Rafael Piloto </h5>
-        <h5> Vyshnavi Rajeevan </h5>
-        <h5> Angelyn </h5>
-        <h5> Elisa Jacobo </h5>
+        <break>
+            <h3 class="text-center"> Meet the Creators </h3>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Carolyn Qu</h5>
+                        <p class="card-text"> Frontend design and music research. Focused on the main page. </p>
+                        <div class="text-center">
+                            <a href="#"> <i class="fa fa-github-square" aria-hidden="true"> </i>
+                            </a>
+                            <a href="#"> <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Julia Yu</h5>
+                        <p class="card-text"> Frontend design and music research. Focused on the about page.
+                        </p>
+                        <div class="text-center">
+                            <a href="#"> <i class="fa fa-github-square" aria-hidden="true"> </i>
+                            </a>
+                            <a href="#"> <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Rafael Piloto</h5>
+                        <p class="card-text">Worked on the backend of the site. blah blah blah</p>
+                        <div class="text-center">
+                            <a href="#"> <i class="fa fa-github-square" aria-hidden="true"> </i>
+                            </a>
+                            <a href="#"> <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p></p>
+
+            <div class="card-deck">
+                <div class="card" style="width: 10rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Vyshnavi Rajeevan</h5>
+                        <p class="card-text"> Frontend design and music research. Focused on the main page. </p>
+                        <div class="text-center">
+                            <a href="#"> <i class="fa fa-github-square" aria-hidden="true"> </i>
+                            </a>
+                            <a href="#"> <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Angelyn Domingo</h5>
+                        <p class="card-text"> Frontend design and music research. Focused on the resources page.</p>
+                        <div class="text-center">
+                            <a href="#"> <i class="fa fa-github-square" aria-hidden="true"> </i>
+                            </a>
+                            <a href="#"> <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Elisa Jacobo</h5>
+                        <p class="card-text"> Frontend design and music research. Focused on the playlist page.</p>
+                        <div class="text-center">
+                            <a href="#"> <i class="fa fa-github-square" aria-hidden="true"></i></a>
+                            <a href="#"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -60,4 +141,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 </script>
+
 </html>
