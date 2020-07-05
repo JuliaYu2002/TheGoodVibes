@@ -7,17 +7,18 @@ h1 {
 
 }
 
-.fullTitle {
+/* .fullTitle {
 
-    /* transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];*/
+    transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
 
-    /*animation: fadeInUp;
+    animation: fadeInUp;
     animation-duration: 2s;
 
     animation: fadeOut;
     animation-duration: 2s;
-    */
+    
 }
+*/
 
 
 .animate__animated.animate__fadeInRight {
