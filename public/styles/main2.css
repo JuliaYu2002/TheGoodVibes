@@ -20,3 +20,8 @@
 
   position: relative;
 }
+
+.selected p {
+  font-weight: bold;
+  font-size: 150%;
+}
