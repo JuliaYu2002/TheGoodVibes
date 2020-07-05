@@ -1,13 +1,31 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  .row {
-    display: flex;
-  }
-  
-  /* Create three equal columns that sits next to each other */
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
+  box-sizing: border-box;
+
+
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  position: relative;
+  top: 0vh;
+
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  /*padding: 1.5vw;*/
+
+  position: relative;
+}
+
+
+
+
+html { 
+  background: url(https://user-images.githubusercontent.com/66151655/86526463-6479d580-be62-11ea-9234-21172cb2ff0e.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+
