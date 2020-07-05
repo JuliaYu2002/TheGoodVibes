@@ -6,6 +6,9 @@
     width: 100%;
 }
 
-.bigIcon {
+.fa {
     font-size: 30px;
+    color: #378081;
+    text-decoration: none;
+    cursor: pointer;
 }
