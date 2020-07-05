@@ -7,8 +7,14 @@ h1 {
 
 }
 
-.animate__animated.animate__bounce {
-    --animate-duration: 3s;
+.animate__animated.animate__fadeInUp {
+    --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeInRight {
+    --animate-delay: 6s;
+    --animate-duration: 2s;
+
 }
 
 .display-4 {
@@ -41,17 +47,14 @@ p {
 
 * {
     box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 33.33%;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
     padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+}
