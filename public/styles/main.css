@@ -7,6 +7,16 @@ h1 {
 
 }
 
+.animate__animated.animate__fadeInUp {
+    --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeInRight {
+    --animate-delay: 6s;
+    --animate-duration: 2s;
+
+}
+
 .display-4 {
     font-size: 10rem;
     margin-top: 200px;
@@ -37,14 +47,14 @@ p {
 
 * {
     box-sizing: border-box;
-  }
-  
-  .row {
+}
+
+.row {
     display: flex;
-  }
-  
-  /* Create three equal columns that sits next to each other */
-  .column {
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
     flex: 33.33%;
     padding: 5px;
-  }
+}
