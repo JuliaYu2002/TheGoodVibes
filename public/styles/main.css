@@ -1,11 +1,7 @@
 h1 {
-
-
     text-align: center;
-    margin-top: 200px;
+
     font-family: 'Oleo Script', cursive;
-
-
 
 
 
@@ -13,7 +9,10 @@ h1 {
 
 .display-4 {
     font-size: 10rem;
+    margin-top: 200px;
     color: #DD9028;
+    position: relative;
+
 }
 
 .displaybg {
@@ -34,6 +33,4 @@ p {
 .lead {
     font-size: 2.3rem;
     margin-top: -40px;
-
-
 }
