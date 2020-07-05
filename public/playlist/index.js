@@ -23,22 +23,29 @@ window.onload = async () => {
 
                 let img = document.createElement("IMG");
                 img.classList.add("card-img-top", "playlistImage");
-                img.src = playlist_data.images[0].url; // CHANGE THIS TO PLAYLIST IMG
+                img.src = playlist_data.images[0].url;
                 img.alt = "card image cap";
 
                 let p = document.createElement("P");
                 p.classList.add("card-text", "playlistName", "text-center");
                 p.innerText = playlist_data.name
 
-                let a = document.createElement("A");
-                a.classList.add("spotifyLinks", "text-center")
-                a.href = playlist_data.external_urls['spotify'];
-                a.innerText = "Click here to listen to the playlist!";
-
 
                 card_body.appendChild(img);
                 card_body.appendChild(p);
-                card_body.appendChild(a);
+
+                if ("spotify" in playlist_data.external_urls) {
+
+                  let a = document.createElement("A");
+                  a.classList.add("spotifyLinks", "text-center")
+                  a.href = playlist_data.external_urls['spotify'];
+                  a.innerText = "Click here to listen to the playlist!";
+
+                  card_body.appendChild(a);
+
+                }
+                
+
                 card.appendChild(card_body);
                 document.getElementById("suggested-playlists").appendChild(card);
             });
