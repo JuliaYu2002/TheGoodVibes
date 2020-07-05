@@ -7,29 +7,35 @@ h1 {
 
 }
 
-/* .fullTitle {
+.animate__animated.animate__fadeInUp {
+    --animate-duration: 2s;
 
-    transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
 
-    animation: fadeInUp;
-    animation-duration: 2s;
-
-    animation: fadeOut;
-    animation-duration: 2s;
-    
 }
-*/
+
+.animate__animated.animate__fadeOut.animate__delay-3s {
+
+    --animate-duration: 1.5s;
+
+
+
+}
 
 
 .animate__animated.animate__fadeInRight {
-    --animate-delay: 6s;
     --animate-duration: 2s;
 
 }
 
+#catch {
+
+    --animate-duration: 1.5s;
+
+}
+
 .display-4 {
-    font-size: 10rem;
-    margin-top: 200px;
+    font-size: 12vw;
+    margin-top: 15vh;
     color: #DD9028;
     position: relative;
 
@@ -45,14 +51,19 @@ h1 {
 
 p {
     /*text-align: center;*/
-    margin-left: 28rem;
+
     font-family: 'Raleway', sans-serif;
+
 
 }
 
 .lead {
-    font-size: 2.3rem;
-    margin-top: -40px;
+    font-size: 2.3vw;
+    margin-left: 30vw;
+
+    margin-top: -7vh;
+
+
 }
 
 * {
