@@ -1,4 +1,5 @@
 const the_good_vibes = document.getElementById("the-good-vibes");
+let selected_mood;
 
 the_good_vibes.addEventListener("webkitAnimationEnd", (e) => {
     if (e.animationName == "fadeOut") {
@@ -28,6 +29,8 @@ let emojis = {
 for (let emoji in emojis) {
     emojis[emoji].onclick = (e) => {
         // console.log(e.srcElement);
+        selected_mood = e.srcElement.id;
+        console.log(selected_mood);
         for (let em in emojis) {
             emojis[em].parentElement.classList.remove("selected");
         }
