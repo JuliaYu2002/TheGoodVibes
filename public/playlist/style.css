@@ -1,0 +1,20 @@
+img {
+  border-radius: 8px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.playlistName {
+  margin-top: 15px !important;
+  margin-left: auto !important;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+#againButton {
+    margin-bottom: 20px;
+}
