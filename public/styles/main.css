@@ -7,9 +7,18 @@ h1 {
 
 }
 
-.animate__animated.animate__fadeInUp {
-    --animate-duration: 2s;
+.fullTitle {
+
+    /* transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];*/
+
+    /*animation: fadeInUp;
+    animation-duration: 2s;
+
+    animation: fadeOut;
+    animation-duration: 2s;
+    */
 }
+
 
 .animate__animated.animate__fadeInRight {
     --animate-delay: 6s;
