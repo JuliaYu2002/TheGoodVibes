@@ -1,3 +1,30 @@
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.playlistName {
+  margin-top: 15px !important;
+  margin-left: auto !important;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+#againButton {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none
+}
+
+a{
+  color: black;
+  text-decoration:none;
+  font-size: 20px;
+}
+
 .card {
     width: 18rem;
 }
