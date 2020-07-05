@@ -12,29 +12,30 @@ window.onload = async () => {
     if (playlists != null) {
         for (let i = 0; i < playlists.length; i++) {
             let playlist_id = playlists[i];
-            let playlist_data = await fetch("/get-playlist/" + playlist_id);
+            fetch("/get-playlist/" + playlist_id).then(data => data.json()).then(playlist_data => {
+                console.log(playlist_data);
 
-            console.log(playlist_data);
+                let card = document.createElement("DIV");
+                card.classList.add("card", "bg-light", "justify-content-center", "mx-auto");
 
-            let card = document.createElement("DIV");
-            card.classList.add("card", "bg-light", "justify-content-center", "mx-auto");
+                let card_body = document.createElement("DIV");
+                card_body.classList.add("card-body");
 
-            let card_body = document.createElement("DIV");
-            card_body.classList.add("card-body");
+                let img = document.createElement("IMG");
+                img.classList.add("card-img-top", "playlistImage");
+                img.src = "https://i.scdn.co/image/ab67706c0000da8440e621faa6b065e92f3b430e"; // CHANGE THIS TO PLAYLIST IMG
+                img.alt = "card image cap";
 
-            let img = document.createElement("IMG");
-            img.classList.add("card-img-top", "playlistImage");
-            img.src = "https://i.scdn.co/image/ab67706c0000da8440e621faa6b065e92f3b430e"; // CHANGE THIS TO PLAYLIST IMG
-            img.alt = "card image cap";
+                let p = document.createElement("P");
+                p.classList.add("card-text", "playlistName", "text-center");
+                p.innerText = "ALBUM TITLE" // CHANGE THIS TO PLAYLIST TITLE
 
-            let p = document.createElement("P");
-            p.classList.add("card-text", "playlistName", "text-center");
-            p.innerText = "ALBUM TITLE" // CHANGE THIS TO PLAYLIST TITLE
+                card_body.appendChild(img);
+                card_body.appendChild(p);
+                card.appendChild(card_body);
+                document.getElementById("suggested-playlists").appendChild(card);
+            });
 
-            card_body.appendChild(img);
-            card_body.appendChild(p);
-            card.appendChild(card_body);
-            document.getElementById("suggested-playlists").appendChild(card);
         }
     }
 
