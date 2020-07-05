@@ -28,3 +28,7 @@
 .container {
   background-color: transparent;
 }
+
+.animate__animated.animate__zoomIn {
+  --animate-duration: 1.7s;
+}
